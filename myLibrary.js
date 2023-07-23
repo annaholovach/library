@@ -1,5 +1,5 @@
 function addValues(a, b) {
-    if ((typeof a === 'number' || typeof a === 'string') &&
+    if ((typeof a === 'number' || typeof a === 'string') ||
         (typeof b === 'number' || typeof b === 'string')) {
         return a + b;
     } else {
