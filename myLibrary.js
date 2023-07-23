@@ -1,10 +1,5 @@
 function addValues(a, b) {
-    if ((typeof a === 'number' || typeof a === 'string') ||
-        (typeof b === 'number' || typeof b === 'string')) {
-        return a + b;
-    } else {
-        return 'Cannot add'
-    }
+    return typeof a && typeof b === 'number' || 'string' ? a + b : 'Cannot add'
 }
 
 function stringifyValue (value) {

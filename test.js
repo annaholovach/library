@@ -24,24 +24,24 @@ let a = Symbol('abc')
 // console.log(flex.stringifyValue([]));
 // console.log(flex.stringifyValue(6125625716235732162375237615371263562351635363235462));
 
-// console.log(flex.addValues('2', '3'));
-// console.log(flex.addValues(3, 3));
-// console.log(flex.addValues('2', -3));
-// console.log(flex.addValues('34', 23));
-// console.log(flex.addValues(null, 23));
-// console.log(flex.addValues(true, 23));
-// console.log(flex.addValues(false, 23));
-//
-// console.log(flex.addValues(undefined, '23'));
-// console.log(flex.addValues(null, '23'));
-// console.log(flex.addValues(undefined, 23));
-// console.log(flex.addValues({}, [])); // 0
-// console.log(flex.addValues([], [])); // ''
-// console.log(flex.addValues([], {})); // [object object]
-// console.log(flex.addValues(2, '6'));
-// console.log(flex.addValues(2, [1, 2, 4]));
-// console.log(flex.addValues({}, [1, 2, 3])); // NaN
-// console.log(flex.addValues({}, {nhh: 'dsfs'})); //NaN
+console.log(flex.addValues('2', '3'));
+console.log(flex.addValues(3, 3));
+console.log(flex.addValues('2', -3));
+console.log(flex.addValues('34', 23));
+console.log(flex.addValues(null, 23));
+console.log(flex.addValues(true, 23));
+console.log(flex.addValues(false, 23));
+
+console.log(flex.addValues(undefined, '23'));
+console.log(flex.addValues(null, '23'));
+console.log(flex.addValues(undefined, 23));
+console.log(flex.addValues({}, [])); // 0
+console.log(flex.addValues([], [])); // ''
+console.log(flex.addValues([], {})); // [object object]
+console.log(flex.addValues(2, '6'));
+console.log(flex.addValues(2, [1, 2, 4]));
+console.log(flex.addValues({}, [1, 2, 3])); // NaN
+console.log(flex.addValues({}, {nhh: 'dsfs'})); //NaN
 
 
 // console.log(flex.convertToNumber('23'));
