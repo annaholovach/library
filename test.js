@@ -31,6 +31,8 @@ console.log(flex.addValues('34', 23));
 console.log(flex.addValues(null, 23));
 console.log(flex.addValues(true, 23));
 console.log(flex.addValues(false, 23));
+console.log(flex.addValues(false, true));
+console.log(flex.addValues(false, false));
 
 console.log(flex.addValues(undefined, '23'));
 console.log(flex.addValues(null, '23'));
